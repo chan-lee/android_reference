@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android_reference.MainActivity$PlaceholderFragment"
+    android:orientation="vertical"
+    >
+    <RadioGroup android:id="@+id/toggleGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <ToggleButton android:id="@+id/btn_toggle_a"
+            style="@style/DefaultButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textOn="@string/toggle_a"
+            android:textOff="@string/toggle_a"
+            android:checked="true"
+            />
+        <ToggleButton android:id="@+id/btn_toggle_b"
+            style="@style/DefaultButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textOn="@string/toggle_b"
+            android:textOff="@string/toggle_b"
+            />
+    </RadioGroup>
+</LinearLayout>
