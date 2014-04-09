@@ -2,6 +2,7 @@ package com.example.android_reference;
 
 import java.util.Locale;
 
+import com.example.android_reference.fragments.ClipRootFragment;
 import com.example.android_reference.fragments.ToggleFragment;
 
 import android.app.Activity;
@@ -124,6 +125,12 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class
             // below).
+            if (position == 0) {
+                return new ToggleFragment();
+            }
+            else if (position == 1) {
+                return new ClipRootFragment();
+            }
             return new ToggleFragment();
         }
 

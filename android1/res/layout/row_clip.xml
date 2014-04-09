@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:gravity="center"
+    >
+    <ImageView android:id="@+id/clip_thumbnail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".30"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/clip_thumbnail"
+        />
+
+    <TextView android:id="@+id/clip_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".55"
+        android:text="@+id/label"
+        />
+    <ImageButton android:id="@+id/clip_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/clip_details"
+        android:background="@color/white"
+        />
+ 
+</LinearLayout>

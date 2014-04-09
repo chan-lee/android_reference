@@ -9,4 +9,7 @@
     
     <string name="toggle_a">Toggle A</string>
     <string name="toggle_b">Toggle B</string>
+    
+    <string name="clip_thumbnail">Clip thumbnail</string>
+    <string name="clip_details">Clip details</string>
 </resources>
