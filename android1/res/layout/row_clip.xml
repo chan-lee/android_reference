@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="?android:attr/listPreferredItemHeightLarge"
     android:gravity="center"
-    >
+    android:descendantFocusability="blocksDescendants"
+    > <!-- descendantFocusability : because of ImageButton -->
+
     <ImageView android:id="@+id/clip_thumbnail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
